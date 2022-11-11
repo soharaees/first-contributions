@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>web</title>
+</head>
+
+<body>
+
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+        <div class="main">
+            <div class="con-1">
+                <h2></h2><a class="navbar-brand" href="#">logo here</a></h2>
+            </div>
+            <div id="toggle-button" onclick="openNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div id="back-div"></div>
+            <div id="mySidenav" class="sidenav">
+                <!-- <div id="nav-btn"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div> -->
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown">
+                            <div class="search-con">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2 search-input" type="search"
+                                        placeholder="Search for product" aria-label="Search">
+                                    <button class="btn search-btn" type="submit"><i class="fa fa-search"
+                                            aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                            <div class="cat-div">
+                                <div class="catagorie-1">
+                                    <p>catagorie</p>
+                                </div>
+                                <div class="catagorie-2" id="catagorie-2">
+                                    <p>menu</p>
+                                </div>
+                            </div>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="con2">
+            <ul class="navbar-nav">
+                <li class="nav-item iconDisplay">
+                    <a class="nav-link active " aria-current="page" href="#">login/register</a>
+                </li>
+                <li class="nav-item iconDisplay">
+                    <a class="nav-link active " aria-current="page" href="#"><i class="fa fa-search"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item iconDisplay">
+                    <a class="nav-link active " aria-current="page" href="#"><i class="fa fa-random"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item iconDisplay">
+                    <a class="nav-link active " aria-current="page" href="#"><i class="fa fa-heart-o"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-shopping-cart"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item iconDisplay">
+                    <a class="nav-link active " aria-current="page" href="#">0.00$</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        </div>
+    </nav>
+
+    <div>
+        <!-- sider -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <h4>Featured accessories</h4>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <div><button type="button" class="btn btn-primary">to shop</button>
+                        <button type="button" class="btn btn-outline-secondary">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Featured accessories</h4>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <div></div>
+                        <button type="button" class="btn btn-primary">to shop</button>
+                        <button type="button" class="btn btn-outline-secondary">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h4 class="text-left">Featured accessories</h4>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <div>
+                        <button type="button" class="btn btn-primary">to shop</button>
+                        <button type="button" class="btn btn-outline-secondary">read more</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- second container -->
+    <section>
+        <div class="container-fluid sec-con">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="">
+                        <div class="product-show">
+                            <div class="p-img"> <img src="images/slide.jpg" class="img-radius" alt=""></div>
+                            <div class="p-des ">
+                                <h3 class="">name</h3>
+                                <p class="">no products</p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- owl slider -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // document.getElementById("nav")("onScroll" ,()=>{
+        //    this.style="background-color:#000"    
+        // })
+        // document.getElementById("catagorie-2")("click" ,()=>{
+
+        // })
+        let backDiv=document.getElementById("back-div"),
+        sideNav = document.getElementById("mySidenav");
+        function openNav() {
+            sideNav .style = " display:block; height: 100%; width: 250px;position: fixed;z-index: 999; top: 0; left: 0;background-color:#fff; overflow-x: hidden;transition: 0.5s;";
+            backDiv.style="display:block ;width: 100vw;height: 100vh;background-color: rgba(0, 0, 0, 0.25);position: fixed;z-index: 998; top: 0;right:0";
+        }
+        backDiv.addEventListener("click", () => {
+            sideNav .style = " display:none; height: 100%; width: 250px;position: fixed;z-index: 999; top: 0; left: 0;background-color:#fff; overflow-x: hidden;transition: 0.5s;";
+            backDiv.style="display:none ;width: 100vw;height: 100vh;background-color: rgba(0, 0, 0, 0.25);position: fixed;z-index: 998; top: 0;right:0";  
+        })
+
+    </script>
+</body>
+
+</html>

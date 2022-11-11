@@ -1,0 +1,197 @@
+.navbar{
+    background-color: transparent;
+}
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.con-1{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   }
+ .navbar-nav .dropdown-menu {
+    position: fixed;
+ }
+
+.iconDisplay {
+    display: none;
+}
+#toggle-button{
+    position: absolute;
+    left: 0;
+    margin: 1% 0 0 1%;
+}
+.line{
+    height: 3px;
+    width: 25px;
+    display: block;
+    background-color: black;
+    border-radius: 2px;
+    margin: 3px;
+}
+.carousel-caption h4{
+    line-height: 40px;
+    font-size: 30px;
+}
+.carousel-caption{
+    bottom: -7.75rem;
+      
+}
+.menu-1 li{
+    display: none;
+   
+}
+.menu-1 li a{
+    font-size: inherit;
+   
+}
+.sidenav {
+ display: none;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+ 
+/* second container */
+.product-show,.p-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-con a{
+    text-decoration: none;
+    color: #000000;
+}
+.img-radius{
+    border-radius: 100px;
+    height: 132px;
+    width: 132px;
+}
+/* seacch box */
+.search-con{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.search-input{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+/* catagorie container */
+.cat-div{
+    display: flex;
+    height: 50px;
+}
+.catagorie-1{
+    width: 50%;
+    height: 100%;
+    background-color: #c8c8c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 3px 0 10px rgb(150, 150, 150);
+}
+.catagorie-2{
+    width: 50%;
+    height: 100%;
+    background-color: #ede6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 3px 0 10px rgb(150, 150, 150);
+}
+
+
+/* desktop */
+@media screen and (min-width : 1600px) {
+    /* Styles here */
+
+}
+
+/* laptop */
+@media screen and (min-width : 1200px) {
+    .carousel-caption h4{
+        line-height: 82px;
+        font-size: 72px;
+    }
+}
+@media screen and (min-width : 992px) {
+ /* navbar */
+ .iconDisplay {
+    display: block;
+}
+.con-1{
+ width: 10%;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.sidenav {
+    height: 100%;
+   width: 100%;
+    position: static;
+    display: flex;
+
+  }
+  .menu-1 li{
+    display: block;
+}
+.line{
+    display: none;
+}
+.search-con{
+    display: none;
+}
+.cat-div{
+    display: none;
+}
+}
+
+@media screen and (min-width : 768px) {
+
+ 
+    /* slider */
+    .carousel-caption h4{
+        line-height: 52px;
+        font-size: 42px;
+    }
+.carousel-caption{
+    right: 70%;
+    /* bottom: 1.25rem; */
+    left: 0;
+    padding-top: 3rem;
+    padding-bottom: 12rem;
+    text-align: left;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+}
+/* moble */
+@media screen and (min-width : 320px) {
+    /* Styles here */
+  
+} 
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  @media screen and (max-height: 450px) {
+    /* .sidenav {padding-top: 15px;} */
+    .sidenav a {font-size: 18px;}
+  }
+
+  
